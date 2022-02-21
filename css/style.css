@@ -1,0 +1,17 @@
+h1 {
+	background-color: SlateBlue;
+	color: aliceblue;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 45px;
+	text-align: center;
+	padding: 50px 150px;
+}
+
+p {
+	background-color: cadetblue;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	text-align: center;
+	padding: 50px 100px;
+}
