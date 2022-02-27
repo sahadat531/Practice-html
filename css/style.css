@@ -1,17 +1,69 @@
-h1 {
-	background-color: SlateBlue;
-	color: aliceblue;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 45px;
-	text-align: center;
-	padding: 50px 150px;
+/* Default Styling */
+* {
+	margin: 0;
+	padding: 0;
 }
 
-p {
-	background-color: cadetblue;
-	color: white;
+.background {
+	background-color: blueviolet;
+	color: aliceblue;
+	text-align: center;
+	padding: 150px 200px;
+}
+.hero-title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 60px;
+	padding-bottom: 30px;
+}
+
+.hero-para {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 18px;
-	text-align: center;
-	padding: 50px 100px;
+	padding-bottom: 50px;
+}
+
+.hero-btn {
+	background-color: aliceblue;
+	padding: 15px 40px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	text-decoration: none;
+	color: blueviolet;
+}
+
+.hero-btn:hover {
+	background-color: transparent;
+	border: 2px solid aliceblue;
+	color: aliceblue;
+	border-radius: 50px;
+}
+
+/* Navigation menu Styling */
+.nav {
+	background-color: aliceblue;
+	padding: 15px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	color: blueviolet;
+}
+
+.menu a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	text-decoration: none;
+	padding-right: 30px;
+	color: blueviolet;
+}
+.menu a:hover {
+	background-color: blueviolet;
+	padding: 10px 30px;
+	color: aliceblue;
 }
